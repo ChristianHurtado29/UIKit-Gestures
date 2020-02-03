@@ -12,6 +12,8 @@ class GesturesTabController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        viewControllers = [TapGestureController(), SwipeGestureController()]
 
     }
     
